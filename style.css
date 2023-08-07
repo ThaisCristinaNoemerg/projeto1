@@ -1,13 +1,94 @@
 body{
 	color: #0000FF
 }
-1:link, a:visited {
+.1:link, a:visited {
 	text-decoration: none
 	}
-1:hover {
+.1:hover {
 	text-decoration: underline;
 	color: #f00
 	}
-1:active {
+.1:active {
 	text-decoration: none
 	}
+.2:link, a:visited {
+	text-decoration: none
+	}
+.2:hover {
+	text-decoration: underline;
+	color: #f00
+	}
+.2:active {
+	text-decoration: none
+	}
+.3:link, a:visited {
+	text-decoration: none
+	}
+.3:hover {
+	text-decoration: underline;
+	color: #f00
+	}
+.3:active {
+	text-decoration: none
+	}
+.4:link, a:visited {
+	text-decoration: none
+	}
+.4:hover {
+	text-decoration: underline;
+	color: #f00
+	}
+.4:active {
+	text-decoration: none
+	}
+.5:link, a:visited {
+	text-decoration: none
+	}
+.5:hover {
+	text-decoration: underline;
+	color: #f00
+	}
+.5:active {
+	text-decoration: none
+	}
+.6:link, a:visited {
+	text-decoration: none
+	}
+.6:hover {
+	text-decoration: underline;
+	color: #f00
+	}
+.6:active {
+	text-decoration: none
+	}
+.7:link, a:visited {
+	text-decoration: none
+	}
+.7:hover {
+	text-decoration: underline;
+	color: #f00
+	}
+.7:active {
+	text-decoration: none
+	}
+.8:link, a:visited {
+	text-decoration: none
+	}
+.8:hover {
+	text-decoration: underline;
+	color: #f00
+	}
+.9:active {
+	text-decoration: none
+	}
+.10:link, a:visited {
+	text-decoration: none
+	}
+.10:hover {
+	text-decoration: underline;
+	color: #f00
+	}
+.10:active {
+	text-decoration: none
+	}
+
