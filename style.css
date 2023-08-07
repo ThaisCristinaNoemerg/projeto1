@@ -1,10 +1,10 @@
-a:link, a:visited {
+1:link, a:visited {
 	text-decoration: none
 	}
-a:hover {
+1:hover {
 	text-decoration: underline;
 	color: #f00
 	}
-a:active {
+1:active {
 	text-decoration: none
 	}
