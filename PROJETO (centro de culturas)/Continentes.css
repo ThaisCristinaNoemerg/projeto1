@@ -1,0 +1,217 @@
+.body{
+    background-color: bisque;
+}
+
+.h1{
+    border: 5px solid #8B4513;
+    border-width: 20px;
+    padding: auto;
+    background-color: #8B4513;
+    text-align: center;
+    font-size: 30px;
+}
+.img{
+    border: 5px solid #8B4513;
+    border-width: 20px;
+    padding: auto;
+    background-color: #8B4513;
+    text-align: center;
+    font-size: 30px; 
+}
+.btn{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-200%, -200%);
+-ms-transform: translate(-50%, -50%);
+background-color: #8B4513;
+color: white;
+font-size: 16px;
+padding: 12px 24px;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+}
+.btn:hover{
+    background-color: #F4A460;
+}
+.btn1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, -100%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #8B4513;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn1:hover{
+    background-color: #F4A460;
+}
+.btn2{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #8B4513;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn2:hover{
+    background-color: #F4A460;
+}
+.btn3{
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #8B4513;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn3:hover{
+    background-color: #F4A460;
+}
+.btn4{
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #8B4513;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn4:hover{
+    background-color: #F4A460;
+}
+.A{
+    display: block;
+    margin:  5px auto;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: #F4A460;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: none;
+    border: none;
+    text-decoration: none;
+    max-width: 300px;
+    transition: opacity .5s;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 16px;
+    height: 40px;
+    width: 100px;
+    position: relative;
+    right: 100px;
+    float: right;
+}
+.B{
+    display: block;
+    margin:  5px auto;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: #F4A460;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: none;
+    border: none;
+    text-decoration: none;
+    max-width: 300px;
+    transition: opacity .5s;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 16px;
+    height: 40px;
+    width: 100px;
+    position: relative;
+    right: 200px;
+    float: right;
+}
+.C{
+    display: block;
+    margin: 5px auto;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: #F4A460;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: none;
+    border: none;
+    text-decoration: none;
+    max-width: 300px;
+    transition: opacity .5s;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 16px;
+    height: 40px;
+    width: 100px;
+    position: relative;
+    right: 300px;
+    float: right;
+}
+.D{
+    display: block;
+    margin: 5px auto;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: #F4A460;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: none;
+    border: none;
+    text-decoration: none;
+    max-width: 300px;
+    transition: opacity .5s;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 16px;
+    height: 40px;
+    width: 100px;
+    position: relative;
+    right: 400px;
+    float: right;
+}
+.E{
+    display: block;
+    margin:  5px auto;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: #F4A460;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: none;
+    border: none;
+    text-decoration: none;
+    max-width: 300px;
+    transition: opacity .5s;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 16px;
+    height: 40px;
+    width: 100px;
+    position: relative;
+    right: 500px;
+    float: right;
+}
+
+

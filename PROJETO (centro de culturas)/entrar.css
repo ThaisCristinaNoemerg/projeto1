@@ -1,0 +1,22 @@
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url("Mundi.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  button {
+    font-size: 24px;
+    padding: 12px 24px;
+    border: none;
+    background-color: #4CAF50;
+    color: #ffffff;
+    cursor: pointer;
+  }
