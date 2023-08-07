@@ -1,6 +1,9 @@
 .body{
 	background-color: green;
 }
+h1{
+	backgroud-color: purple;
+}
 .1:link, a:visited {
 	text-decoration: none
 	}
