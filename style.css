@@ -1,6 +1,47 @@
 body{
- background-color:FFFACD;
+    background-color: #FA8072;
 }
 .h1{
- color:F08080;
+    color: #4B0082;
+    text-align: center;
+}
+.img1{
+    width: 300px;
+    height: 300px;
+}
+.img2{
+    width: 300px;
+    height: 300px;
+}
+.img3{
+    width: 300px;
+    height: 300px;
+}
+.img4{
+    width: 300px;
+    height: 300px;
+}
+.img5{
+    width: 300px;
+    height: 300px;
+}
+.img6{
+    width: 300px;
+    height: 300px;
+}
+.img7{
+    width: 300px;
+    height: 300px;
+}
+.img8{
+    width: 300px;
+    height: 300px;
+}
+.img9{
+    width: 300px;
+    height: 300px;
+}
+.img10{
+    width: 300px;
+    height: 300px;
 }
