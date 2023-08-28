@@ -16,3 +16,5 @@ function showImage(index) {
     image.style.display = i === index ? 'block' : 'none';
   });
 }
+
+showImage(currentImageIndex);
