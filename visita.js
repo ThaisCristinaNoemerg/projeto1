@@ -2,7 +2,7 @@ let currentImageIndex = 0;
 const images = document.querySelectorAll('.image');
 
 function changeImage(direction) {
-  currentImageIndex += direction; /* galeria de fotos */
+  currentImageIndex += direction; 
   if (currentImageIndex < 0) {
     currentImageIndex = images.length - 1;
   } else if (currentImageIndex >= images.length) {
