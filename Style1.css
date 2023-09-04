@@ -4,20 +4,20 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    max-width: 1000px; /* Defina a largura máxima desejada para a galeria */
+    max-width: 1000px; /* galeria de fotos*/
     margin: 0 auto;
   }
   
   .image {
-    max-width: 100%; /* Defina a largura máxima desejada para as imagens */
+    max-width: 100%; /* tamanho das imagens*/
     height: auto;
-    width: auto; /* Para manter a proporção original */
+    width: auto; 
     border: 1px solid #ddd;
   }
   
   .prev, .next {
     position: absolute;
-    top: 50%;
+    top: 50%; /* botão */
     transform: translateY(-50%);
     cursor: pointer;
     font-size: 24px;
