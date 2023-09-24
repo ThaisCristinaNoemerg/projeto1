@@ -1,8 +1,30 @@
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <h1>Aúdios</h1>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <div class="music-player">
+        <div class="music-cover">
+            <img src="weverse_0-269758317.webp" alt="Album Cover">
+        </div>
+        <div class="music-info">
+            <h1 class="song-title">Song Title</h1>
+            <h2 class="artist">Artist Name</h2>
+        </div>
+        <div class="controls">
+            <button id="prev-button"><img src="prev-icon.png" alt="Anterior"></button>
+            <button id="play-button"><img src="play-icon.png" alt="Tocar"></button>
+            <button id="next-button"><img src="next-icon.png" alt="Proximo"></button>
+        </div>
+        <audio id="music" controls>
+            <source src="music1.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    <script src="thais.js"></script>
+</body>
 </html>
+
