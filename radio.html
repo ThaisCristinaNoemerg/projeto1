@@ -3,54 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="radio.css">
-    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Minha Playlist de Músicas</title>
 </head>
 <body>
-    <div class="music-player">
-        <div class="music-cover">
-            <img src="Imagens Musica/DNA.img.webp" alt="Album Cover">
+    <div class="playlist">
+        <div class="playlist-header">
+            <h1 class="playlist-title">Playlist da Thais</h1>
         </div>
-        <div class="music-info">
-            <h1 class="song-title">Playlist Thaís</h1>
-            <h2 class="artist">BTS,</h2>
-        </div>
-        <div class="controls">
-            <button id="prev-button"><img src="Imagens Musica/esquerda.png" alt="Anterior"></button>
-            <button id="next-button"><img src="Imagens Musica/direita.png" alt="Proximo"></button>
-        </div>
-        <audio id="music" controls>
-            <source src="music1.mp3" type="audio/mpeg">1
-        </audio>
-        <audio id="music" controls>
-            <source src="music1.mp3" type="audio/mpeg">2
-        </audio>
-        <audio id="music" controls>
-            <source src="music1.mp3" type="audio/mpeg">3
-        </audio>
-        <audio id="music" controls>
-            <source src="music1.mp3" type="audio/mpeg">4
-        </audio>
-        <audio id="music" controls>
-            <source src="music1.mp3" type="audio/mpeg">5
-        </audio>
-        <audio id="music" controls>
-            <source src="music1.mp3" type="audio/mpeg">6
-        </audio>
-        <audio id="music" controls>
-            <source src="music1.mp3" type="audio/mpeg">7
-        </audio>
-        <audio id="music" controls>
-            <source src="music1.mp3" type="audio/mpeg">8
-        </audio>
-        <audio id="music" controls>
-            <source src="music1.mp3" type="audio/mpeg">9
-        </audio>
-        <audio id="music" controls>
-            <source src="music1.mp3" type="audio/mpeg">10
-        </audio>
+        <ul class="music-list">
+            <li class="music-item">
+                <img src="weverse_0-269758317.webp" alt="Capa da Música 1" class="music-cover">
+                <div class="music-details">
+                    <h2 class="music-title">DNA</h2>
+                    <p class="music-artist">BTS</p>
+                </div>
+                <audio controls id="audio1">
+                    <source src="BTS (방탄소년단) DNA Official MV.mp3" type="audio/mpeg">
+                    Seu navegador não suporta o elemento de áudio.
+                </audio>
+            </li>
+            <li class="music-item">
+                <img src="Kda_-_more.jpg" alt="Capa da Música 2" class="music-cover">
+                <div class="music-details">
+                    <h2 class="music-title">MORE</h2>
+                    <p class="music-artist">KDA</p>
+                </div>
+                <audio controls id="audio2">
+                    <source src="1MILLION X KDA - MORE.mp3" type="audio/mpeg">
+                    Seu navegador não suporta o elemento de áudio.
+                </audio>
+            </li>
+            <!-- Repita o bloco abaixo para cada música -->
+        </ul>
     </div>
-    <script src="radio.js"></script>
+    <script src="thais.js"></script>
 </body>
 </html>
-
