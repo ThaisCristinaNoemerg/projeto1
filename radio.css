@@ -9,7 +9,7 @@ body {
 .playlist { 
     max-width: 800px;
     margin: 20px auto;
-    background-color: #4B0082;
+    background-color: #DDA0DD;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     overflow: hidden;
