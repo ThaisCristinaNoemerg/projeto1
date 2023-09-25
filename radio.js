@@ -22,7 +22,7 @@ function loadNextSong() {
     var nextSong = "Musicas/SEVENTEEN (세븐틴) 손오공 Official MV.mp3";
     var nextSong = "Musicas/TREASURE - BONA BONA MV.mp3";
 
-    // Carregue a próxima música no elemento de áudio
+    // isso é para a próxima música no elemento de áudio
     playlist.src = nextSong;
 
     // Inicie a reprodução da próxima música
