@@ -1,30 +1,29 @@
-javascript
-// Obtenha o elemento de áudio pelo seu ID
-var playlist = document.getElementById("audioPlayer");
+document.addEventListener("DOMContentLoaded", function () {
+    // Obtém todos os elementos de áudio da lista de reprodução
+    var audioElements = document.querySelectorAll("audio");
 
-// Adicione um evento "ended" ao elemento de áudio
-playlist.addEventListener("ended", function() {
-    // Quando a música atual terminar, carregue a próxima música
-    loadNextSong();
+    // Inicializa a reprodução da primeira música
+    var currentIndex = 0;
+    audioElements[currentIndex].play();
+
+    // Função para tocar a próxima música
+    function playNext() {
+        // Pára o áudio atual
+        audioElements[currentIndex].pause();
+        // Move para a próxima música
+        currentIndex++;
+        // Verifica se ainda há músicas na lista
+        if (currentIndex < audioElements.length) {
+            // Toca a próxima música
+            audioElements[currentIndex].play();
+        }
+    }
+
+    // Adiciona um evento de término para cada elemento de áudio
+    audioElements.forEach(function (audio) {
+        audio.addEventListener("ended", function () {
+            // Quando uma música termina, toca a próxima
+            playNext();
+        });
+    });
 });
-
-// Função para carregar a próxima música
-function loadNextSong() {
-    // Aqui você pode adicionar a lógica para determinar qual é a próxima música a ser tocada
-    // Por exemplo, você pode ter uma lista de músicas e simplesmente carregar a próxima música na lista
-    var nextSong = "Musicas/1MILLION X KDA - MORE.mp3";
-    var nextSong = "Musicas/ENHYPEN (엔하이픈) Bite Me Official MV.mp3";
-    var nextSong = "Musicas/LE SSERAFIM (르세라핌) UNFORGIVEN (feat. Nile Rodgers) OFFICIAL MV.mp3";
-    var nextSong = "Musicas/Little Mix - Power (Official Video) ft. Stormzy.mp3";
-    var nextSong = "Musicas/Little Mix - Secret Love Song (Official Video) ft. Jason Derulo.mp3";
-    var nextSong = "Musicas/[BLACKSWAN] Karma Official MV.mp3";
-    var nextSong = "Musicas/TXT (투모로우바이투게더), Anitta Back for More Official MV.mp3";
-    var nextSong = "Musicas/SEVENTEEN (세븐틴) 손오공 Official MV.mp3";
-    var nextSong = "Musicas/TREASURE - BONA BONA MV.mp3";
-
-    // isso é para a próxima música no elemento de áudio
-    playlist.src = nextSong;
-
-    // Inicie a reprodução da próxima música
-    playlist.play();
-}
