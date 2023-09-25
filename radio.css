@@ -9,14 +9,14 @@ body {
 .playlist {  
     max-width: 800px;
     margin: 20px auto;
-    background-color: #DDA0DD;
+    background-color: #AFEEEE;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     overflow: hidden;
 }
 
 .playlist-header {
-    background-color: #DDA0DD;
+    background-color: #AFEEEE;
     color: #fff;
     padding: 20px;
     text-align: center;
