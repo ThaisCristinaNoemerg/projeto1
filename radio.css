@@ -1,7 +1,7 @@
 /* styles.css */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #7B68EE;
     margin: 0;
     padding: 0;
 }
@@ -9,14 +9,14 @@ body {
 .playlist {
     max-width: 800px;
     margin: 20px auto;
-    background-color: #fff;
+    background-color: #4B0082;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     overflow: hidden;
 }
 
 .playlist-header {
-    background-color: #333;
+    background-color: #6A5ACD;
     color: #fff;
     padding: 20px;
     text-align: center;
