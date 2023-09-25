@@ -12,15 +12,15 @@ playlist.addEventListener("ended", function() {
 function loadNextSong() {
     // Aqui você pode adicionar a lógica para determinar qual é a próxima música a ser tocada
     // Por exemplo, você pode ter uma lista de músicas e simplesmente carregar a próxima música na lista
-    var nextSong = "musica2.mp3";
-    var nextSong = "musica2.mp3";
-    var nextSong = "musica2.mp3";
-    var nextSong = "musica2.mp3";
-    var nextSong = "musica2.mp3";
-    var nextSong = "musica2.mp3";
-    var nextSong = "musica2.mp3";
-    var nextSong = "musica2.mp3";
-    var nextSong = "musica2.mp3";
+    var nextSong = "Musicas/1MILLION X KDA - MORE.mp3";
+    var nextSong = "Musicas/ENHYPEN (엔하이픈) Bite Me Official MV.mp3";
+    var nextSong = "Musicas/LE SSERAFIM (르세라핌) UNFORGIVEN (feat. Nile Rodgers) OFFICIAL MV.mp3";
+    var nextSong = "Musicas/Little Mix - Power (Official Video) ft. Stormzy.mp3";
+    var nextSong = "Musicas/Little Mix - Secret Love Song (Official Video) ft. Jason Derulo.mp3";
+    var nextSong = "Musicas/[BLACKSWAN] Karma Official MV.mp3";
+    var nextSong = "Musicas/TXT (투모로우바이투게더), Anitta Back for More Official MV.mp3";
+    var nextSong = "Musicas/SEVENTEEN (세븐틴) 손오공 Official MV.mp3";
+    var nextSong = "Musicas/TREASURE - BONA BONA MV.mp3";
 
     // Carregue a próxima música no elemento de áudio
     playlist.src = nextSong;
